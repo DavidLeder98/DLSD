@@ -1,5 +1,6 @@
 import './Hero.css';
-import hero from '../../assets/sky3.png';
+import hero from '../../assets/sky_hd.png';
+import hero2 from '../../assets/sky_ld.png';
 import pfp from '../../assets/pfp.png';
 import { motion } from "framer-motion";
 import { useNavigation } from '../../services/NavigationContext';
@@ -22,6 +23,7 @@ const Hero = () => {
 
     return(
         <div className="hero">
+            <img src={hero2} alt="david leder background" className="hero-img" />
             <img src={hero} alt="david leder background" className="hero-img" />
             <div className="hero-content">
                 <div className="pfp-outer">

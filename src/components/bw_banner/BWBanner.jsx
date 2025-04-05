@@ -1,6 +1,6 @@
 import './BWBanner.css';
 import { useEffect } from "react";
-import gray from '../../assets/sky3.png';
+import gray from '../../assets/sky_hd.png';
 import bookwyrm from '../../assets/bookwyrm.png';
 
 const BWBanner = () => {

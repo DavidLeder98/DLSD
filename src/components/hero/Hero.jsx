@@ -23,7 +23,7 @@ const Hero = () => {
 
     return(
         <div className="hero">
-            <img src={hero2} alt="david leder background" className="hero-img" />
+            <img src={hero2} alt="david leder background" className="hero-img red" />
             <img src={hero} alt="david leder background" className="hero-img" />
             <div className="hero-content">
                 <div className="pfp-outer">

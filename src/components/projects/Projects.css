@@ -1,0 +1,135 @@
+.projects{
+    width: 100%;
+    max-width: 1600px;
+    margin: 100px auto 0;
+}
+
+.proj-h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    margin: 0 auto 70px auto;
+    font-weight: 800;
+    width: 300px;
+}
+
+.projects-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.proj{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.proj-img-cont{
+    border: 2px solid #000;
+    width: 354px;
+    height: 204px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 3px rgba(0, 0, 0, 0.19);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.tab{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 310px;
+    height: 160px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    transition: 0.4s ease-in-out;
+    transform: translate(360px, 0);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.newtab{
+    height: 1.65rem;
+    padding: 0 0 0 10px;
+}
+
+.proj-img{
+    width: 310px;
+    height: 160px;
+    transition: 0.4s ease-in-out;
+}
+
+.proj-img-cont:hover .tab{
+    transform: translate(0, 0);
+}
+
+.proj-img-cont:hover .proj-img{
+    transform: translate(-340px, 0);
+}
+
+.proj-details{
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.proj-h3{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    background-color: #000;
+    padding: 25px 35px;
+}
+
+.ph3-gray{
+    text-transform: none;
+    color: #aaa;
+    font-weight: 600;
+}
+
+.proj-a{
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-style: italic;
+    position: relative;
+}
+
+.proj-a-text{
+    position: relative;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+    color: #0099ff;
+    background-color: #fff;
+    padding: 7px;
+    z-index: 100;
+    font-weight: 600;
+}
+
+.proj-a:hover .proj-a-text{
+    transform: translate(35px, 0);
+}
+
+.proj-a-arrow{
+    transition: 0.3s ease-in-out;
+    color: #0099ff;
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    padding: 6px 20px 6px 7px;
+    z-index: 1;
+}
+
+.proj-p{
+    font-size: 1.1rem;
+}

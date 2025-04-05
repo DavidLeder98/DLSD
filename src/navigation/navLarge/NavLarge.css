@@ -1,0 +1,73 @@
+.nav-large{
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 0 50px 30px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 103;
+    transition: 0.3s ease-in-out;
+    background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.nav-large.scrolled{
+    background-color: #000;
+    height: 90px;
+    padding: 0 50px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-dl{
+    color: #eee;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    font-weight: 800;
+}
+
+.logo-dl.scrolled{
+    font-size: 1.7rem;
+}
+
+.logo-sd{
+    color: #999;
+    font-size: 1.6rem;
+    transition: 0.3s ease-in-out;
+    font-weight: 400;
+}
+
+.logo-sd.scrolled{
+    font-size: 1.4rem;
+}
+
+.nl-items{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: 100%;
+    align-items: center;
+}
+
+.nl-link{
+    color: #999;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.nl-link:hover{
+    color: #fff;
+}

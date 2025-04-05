@@ -1,7 +1,7 @@
-import './App.css'
+import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Nav from './navigation/Nav/Nav';
-import HomePage from './pages/HomePage'
+import Nav from './navigation/nav/Nav';
+import HomePage from './pages/HomePage';
 import BWPage from './pages/BWPage';
 import { NavigationProvider } from './services/NavigationContext';
 

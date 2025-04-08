@@ -1,56 +1,222 @@
-.about{
-    width: 100%;
-    max-width: 1600px;
-    margin: 0 auto;
+
+@media (min-width: 1801px){
+    .about{
+        width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    
+    .about-h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.4rem;
+        margin: 80px 0 80px 0;
+        font-weight: 800;
+    }
+    
+    .ah3-cont{
+        background-color: #000;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .about h3{
+        color: #eee;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        width: 330px;
+    }
+    
+    .a-svg-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        background-color: #ffee00;
+    }
+    
+    .a-svg{
+        height: 45px;
+        width: 45px;
+    }
+    
+    .about h4{
+        font-size: 1.3rem;
+        font-style: italic;
+    }
+    
+    .about p{
+        font-size: 1.1rem;
+    }
+    
+    .about-content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .ac-section{
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
-.about-h2{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 2.4rem;
-    margin: 80px 0 80px 0;
-    font-weight: 800;
+@media (min-width: 1501px) and (max-width: 1800px){
+    .about{
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    
+    .about-h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.2rem;
+        margin: 70px 0 60px 0;
+        font-weight: 800;
+    }
+    
+    .ah3-cont{
+        background-color: #000;
+        width: 100%;
+        padding: 15px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .about h3{
+        color: #eee;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        width: 300px;
+    }
+    
+    .a-svg-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: #ffee00;
+    }
+    
+    .a-svg{
+        height: 35px;
+        width: 35px;
+    }
+    
+    .about h4{
+        font-size: 1.1rem;
+        font-style: italic;
+    }
+    
+    .about p{
+        font-size: 1rem;
+    }
+    
+    .about-content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .ac-section{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
 }
 
-.about h3{
-    padding: 20px;
-    color: #eee;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: 400;
+@media (min-width: 1201px) and (max-width: 1500px){
+    .about{
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    
+    .about-h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        margin: 60px 0 50px 0;
+        font-weight: 800;
+    }
+    
+    .ah3-cont{
+        background-color: #000;
+        width: 100%;
+        padding: 15px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .about h3{
+        color: #eee;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        width: 240px;
+    }
+    
+    .a-svg-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        background-color: #ffee00;
+    }
+    
+    .a-svg{
+        height: 30px;
+        width: 30px;
+    }
+    
+    .about h4{
+        font-size: 1rem;
+        font-style: italic;
+    }
+    
+    .about p{
+        font-size: 1rem;
+    }
+    
+    .about-content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .ac-section{
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
-.ah3-left{
-    background-color: #000;
-}
-
-.ah3-mid{
-    background-color: #c7ad7c;
-}
-
-.ah3-right{
-    background-color: #1c253b;
-}
-
-.about h4{
-    font-size: 1.3rem;
-    font-style: italic;
-}
-
-.about p{
-    font-size: 1.1rem;
-}
-
-.about-content{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.ac-section{
-    width: 480px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+@media (max-width: 1200px){
+    .about{
+         display: none;
+    }
 }

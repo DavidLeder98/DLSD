@@ -1,6 +1,6 @@
 import './BWBanner.css';
 import { useEffect } from "react";
-import gray from '../../assets/sky_hd.png';
+import sky from '../../assets/sky_hd.avif';
 import bookwyrm from '../../assets/bookwyrm.png';
 
 const BWBanner = () => {
@@ -10,7 +10,7 @@ const BWBanner = () => {
 
     return(
         <div className="bw-banner">
-            <img src={gray} alt="BookWyrm background" className="bwb-img" />
+            <img src={sky} alt="BookWyrm background" className="bwb-img" />
             <div className="bwb-content">
                 <h2 className="bwb-h2"><span className="bwb-name">BookWyrm</span> | Project Breakdown</h2>
                 <div className="bwb-sections">

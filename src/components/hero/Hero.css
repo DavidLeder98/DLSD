@@ -1,128 +1,454 @@
-.hero{
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    background-color: #222;
-    position: relative;
-}
 
-.hero-img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    object-fit: cover;
-    object-position: bottom;
-}
-
-.red{
-    filter: invert(100%);
-}
-
-.hero-content{
-    width: 100%;
-    height: 100%;
-    max-width: 1600px;
-    margin: 0 auto;
-    position: relative;
-}
-
-@keyframes slideInFromTop {
-    0% {
-        transform: translateY(-100px); /* Starts 50px above */
-        opacity: 0;
+@media (min-width: 1801px){
+    .hero{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background-color: #222;
+        position: relative;
     }
-    100% {
-        transform: translateY(0); /* Moves to its normal position */
-        opacity: 1;
+    
+    .hero-img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        object-fit: cover;
+        object-position: bottom;
+    }
+    
+    .hero-content{
+        width: 100%;
+        height: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    @keyframes slideInFromTop {
+        0% {
+            transform: translateY(-100px); /* Starts 50px above */
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0); /* Moves to its normal position */
+            opacity: 1;
+        }
+    }
+    
+    .pfp-outer{
+        position: absolute;
+        top: 30%;
+        left: 0;
+        z-index: 102;
+        padding: 20px;
+        background-color: #eee;
+        opacity: 0; /* Initially hidden */
+        animation: slideInFromTop 0.8s ease-out 0.3s forwards;
+        width: 400px;
+        height: 540px;
+        cursor: pointer;
+    }
+    
+    .outer-text-cont{
+        width: 0;
+        height: 0;
+        z-index: 100;
+    }
+    
+    .outer-text{
+        width: 250px;
+        height: 400px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 1.1rem;
+    }
+    
+    .pfp-inner{
+        padding: 20px;
+        background-color: #eee;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 440px;
+        height: 500px;
+        overflow: hidden;
+        transition: 0.5s;
+        z-index: 101;
+        display: inline-block;
+    }
+    
+    .pfp-outer:hover .pfp-inner{
+        transform: translateX(250px);
+    }
+    
+    .hero-pfp{
+        width: 100%;
+        height: auto;
+    }
+    
+    .hero-motto{
+        position: absolute;
+        top: 30%;
+        right: -2%;
+        width: 540px;
+        padding: 40px;
+    }
+    
+    .hm-color{
+        color: #000;
+        background-color: #ffee00;
+        padding: 0 5px;
+    }
+    
+    .hm-top{
+        font-size: 2.6rem;
+        font-weight: 800;
+        color: #eee;
+        text-transform: uppercase;
+    }
+    
+    .hm-mid{
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: #eee;
+        margin: 10px 0;
+    }
+    
+    .hm-bot{
+        font-size: 1.2rem;
+        color: #eee;
+        margin: 10px 0;
+    }
+    
+    .hm-button{
+        margin: 30px auto 0 auto;
+        width: 80%;
+        height: 80px;
+        border-radius: 15px;
+        border: 2px solid #eee;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .hmb-p{
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color: #eee;
+        transition: color 0.3s ease-in-out;
+    }
+    
+    .hm-button:hover{
+        background-color: #eee;
+    }
+    
+    .hm-button:hover .hmb-p{
+        color: #000;
     }
 }
 
-.pfp-outer{
-    position: absolute;
-    top: 30%;
-    left: 0;
-    z-index: 102;
-    padding: 20px;
-    background-color: #eee;
-    opacity: 0; /* Initially hidden */
-    animation: slideInFromTop 0.8s ease-out 0.3s forwards;
-    width: 480px;
-    height: 540px;
+@media (min-width: 1501px) and (max-width: 1800px){
+    .hero{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background-color: #222;
+        position: relative;
+    }
+    
+    .hero-img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        object-fit: cover;
+        object-position: bottom;
+    }
+    
+    .hero-content{
+        width: 100%;
+        height: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    @keyframes slideInFromTop {
+        0% {
+            transform: translateY(-100px); /* Starts 50px above */
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0); /* Moves to its normal position */
+            opacity: 1;
+        }
+    }
+    
+    .pfp-outer{
+        position: absolute;
+        top: 30%;
+        left: 0;
+        z-index: 102;
+        padding: 15px;
+        background-color: #eee;
+        opacity: 0; /* Initially hidden */
+        animation: slideInFromTop 0.8s ease-out 0.3s forwards;
+        width: 340px;
+        height: 440px;
+        cursor: pointer;
+    }
+    
+    .outer-text-cont{
+        width: 0;
+        height: 0;
+        z-index: 100;
+    }
+    
+    .outer-text{
+        width: 250px;
+        height: 400px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .pfp-inner{
+        padding: 15px;
+        background-color: #eee;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 360px;
+        height: 410px;
+        overflow: hidden;
+        transition: 0.5s;
+        z-index: 101;
+        display: inline-block;
+    }
+    
+    .pfp-outer:hover .pfp-inner{
+        transform: translateX(220px);
+    }
+    
+    .hero-pfp{
+        width: 100%;
+        height: auto;
+    }
+    
+    .hero-motto{
+        position: absolute;
+        top: 35%;
+        right: 0;
+        width: 400px;
+    }
+    
+    .hm-color{
+        color: #000;
+        background-color: #ffee00;
+        padding: 0 5px;
+    }
+    
+    .hm-top{
+        font-size: 2.2rem;
+        font-weight: 800;
+        color: #eee;
+        text-transform: uppercase;
+    }
+    
+    .hm-mid{
+        font-size: 1.4rem;
+        font-weight: 800;
+        color: #eee;
+        margin: 10px 0;
+    }
+    
+    .hm-bot{
+        font-size: 1.1rem;
+        color: #eee;
+        margin: 10px 0;
+    }
+    
+    .hm-button{
+        margin: 30px auto 0 auto;
+        width: 70%;
+        height: 60px;
+        border-radius: 15px;
+        border: 2px solid #eee;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .hmb-p{
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        color: #eee;
+        transition: color 0.3s ease-in-out;
+    }
+    
+    .hm-button:hover{
+        background-color: #eee;
+    }
+    
+    .hm-button:hover .hmb-p{
+        color: #000;
+    }
 }
 
-.pfp-inner{
-    padding: 20px;
-    background-color: #eee;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 440px;
-    height: 500px;
-    overflow: hidden;
+@media (min-width: 1201px) and (max-width: 1500px){
+    .hero{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background-color: #222;
+        position: relative;
+    }
+    
+    .hero-img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        object-fit: cover;
+        object-position: bottom;
+    }
+    
+    .hero-content{
+        width: 100%;
+        height: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    @keyframes slideInFromTop {
+        0% {
+            transform: translateY(-100px); /* Starts 50px above */
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0); /* Moves to its normal position */
+            opacity: 1;
+        }
+    }
+    
+    .pfp-outer{
+        position: absolute;
+        top: 30%;
+        left: 0;
+        z-index: 102;
+        padding: 15px;
+        background-color: #eee;
+        opacity: 0; /* Initially hidden */
+        animation: slideInFromTop 0.8s ease-out 0.3s forwards;
+        width: 260px;
+        height: 368px;
+        cursor: pointer;
+    }
+    
+    .outer-text-cont{
+        width: 0;
+        height: 0;
+        z-index: 100;
+    }
+    
+    .outer-text{
+        width: 200px;
+        height: 400px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 0.9rem;
+    }
+    
+    .pfp-inner{
+        padding: 15px;
+        background-color: #eee;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 300px;
+        height: 338px;
+        overflow: hidden;
+        transition: 0.5s;
+        z-index: 101;
+        display: inline-block;
+    }
+    
+    .pfp-outer:hover .pfp-inner{
+        transform: translateX(185px);
+    }
+    
+    .hero-pfp{
+        width: 100%;
+        height: auto;
+    }
+    
+    .hero-motto{
+        position: absolute;
+        top: 35%;
+        right: 0;
+        width: 340px;
+    }
+    
+    .hm-color{
+        color: #000;
+        background-color: #ffee00;
+        padding: 0 5px;
+    }
+    
+    .hm-top{
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: #eee;
+        text-transform: uppercase;
+    }
+    
+    .hm-mid{
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: #eee;
+        margin: 10px 0;
+    }
+    
+    .hm-bot{
+        font-size: 1rem;
+        color: #eee;
+        margin: 10px 0;
+    }
+    
+    .hm-button{
+        margin: 30px auto 0 auto;
+        width: 60%;
+        height: 50px;
+        border-radius: 10px;
+        border: 2px solid #eee;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .hmb-p{
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: #eee;
+        transition: color 0.3s ease-in-out;
+    }
+    
+    .hm-button:hover{
+        background-color: #eee;
+    }
+    
+    .hm-button:hover .hmb-p{
+        color: #000;
+    }
 }
 
-.hero-pfp{
-    width: 100%;
-    height: auto;
-}
-
-.hero-motto{
-    position: absolute;
-    top: 30%;
-    right: -2%;
-    width: 540px;
-    padding: 40px;
-}
-
-.hm-color{
-    color: #000;
-    background-color: #ffee00;
-    padding: 0 5px;
-}
-
-.hm-top{
-    font-size: 2.6rem;
-    font-weight: 800;
-    color: #eee;
-    text-transform: uppercase;
-}
-
-.hm-mid{
-    font-size: 1.8rem;
-    font-weight: 800;
-    color: #eee;
-    margin: 10px 0;
-}
-
-.hm-bot{
-    font-size: 1.2rem;
-    color: #eee;
-    margin: 10px 0;
-}
-
-.hm-button{
-    margin: 30px auto 0 auto;
-    width: 80%;
-    height: 80px;
-    border-radius: 15px;
-    border: 2px solid #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
-}
-
-.hmb-p{
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    color: #eee;
-    transition: 0.3s ease-in-out;
-}
-
-.hm-button:hover{
-    background-color: #eee;
-}
-
-.hm-button:hover .hmb-p{
-    color: #000;
+@media (max-width: 1200px){
+    
 }

@@ -1,11 +1,12 @@
 import './Hero.css';
-import hero from '../../assets/sky_hd.png';
-import hero2 from '../../assets/sky_ld.png';
-import pfp from '../../assets/pfp.png';
+import hero from '../../assets/sky_hd.avif';
+import pfp from '../../assets/pfp.avif';
 import { motion } from "framer-motion";
 import { useNavigation } from '../../services/NavigationContext';
 
 const Hero = () => {
+    const currentAge = new Date().getFullYear()-1998;
+
     const containerVariants = {
         hidden: { opacity: 0 },
         visible: {
@@ -23,12 +24,41 @@ const Hero = () => {
 
     return(
         <div className="hero">
-            <img src={hero2} alt="david leder background" className="hero-img red" />
             <img src={hero} alt="david leder background" className="hero-img" />
             <div className="hero-content">
                 <div className="pfp-outer">
-                    <div className="pfp-inner">
-                        <img src={pfp} alt="david leder" className="hero-pfp" />
+                    <div className="outer-text-cont">
+                        <div className="outer-text">
+                            <p>
+                                <b className="b-600">Name:</b>
+                                <p>David Leder</p>
+                            </p>
+                            <p>
+                                <b className="b-600">Age:</b>
+                                <p>{currentAge}</p>
+                            </p>
+                            <p>
+                                <b className="b-600">Profession:</b>
+                                <p>Software developer</p>
+                            </p>
+                            <p>
+                                <b className="b-600">Devotion to Clients:</b>
+                                <p>Unmatched</p>
+                            </p>
+                            <p>
+                                <b className="b-600">Hobbies:</b>
+                                <p>Cycling, woodworking</p>
+                            </p>
+                            <p>
+                                <b className="b-600">Favorite activity:</b>
+                                <p>Making unnecessarily interactive websites</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="pfp-inner-cont">
+                        <div className="pfp-inner">
+                            <img src={pfp} alt="david leder" className="hero-pfp" />
+                        </div>
                     </div>
                 </div>
                 <motion.div

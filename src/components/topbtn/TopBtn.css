@@ -1,43 +1,183 @@
-.top-btn-positioner{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 100px 0 0 0;
+
+@media (min-width: 1801px){
+    .top-btn-positioner{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 100px 0 0 0;
+    }
+    
+    .top-btn{
+        width: 250px;
+        height: 70px;
+        border-radius: 15px;
+        border: 2px solid #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .up-img{
+        height: 20px;
+        width: 20px;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .up-text{
+        font-size: 1.2rem;
+        color: #000;
+        transition: 0.3s ease-in-out;
+        padding: 0 0 0 20px;
+    }
+    
+    .top-btn:hover{
+        background-color: #111;
+    }
+    
+    .top-btn:hover .up-text{
+        color: #eee;
+    }
+    
+    .top-btn:hover .up-img{
+        filter: invert(100%);
+    }
 }
 
-.top-btn{
-    width: 250px;
-    height: 70px;
-    border-radius: 15px;
-    border: 2px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
+@media (min-width: 1501px) and (max-width: 1800px){
+    .top-btn-positioner{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 80px 0 0 0;
+    }
+    
+    .top-btn{
+        width: 220px;
+        height: 60px;
+        border-radius: 12px;
+        border: 2px solid #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .up-img{
+        height: 16px;
+        width: 16px;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .up-text{
+        font-size: 1.1rem;
+        color: #000;
+        transition: 0.3s ease-in-out;
+        padding: 0 0 0 20px;
+    }
+    
+    .top-btn:hover{
+        background-color: #111;
+    }
+    
+    .top-btn:hover .up-text{
+        color: #eee;
+    }
+    
+    .top-btn:hover .up-img{
+        filter: invert(100%);
+    }
 }
 
-.up-img{
-    height: 20px;
-    width: 20px;
-    transition: 0.3s ease-in-out;
+@media (min-width: 1201px) and (max-width: 1500px){
+    .top-btn-positioner{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 60px 0 0 0;
+    }
+    
+    .top-btn{
+        width: 220px;
+        height: 60px;
+        border-radius: 12px;
+        border: 2px solid #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .up-img{
+        height: 16px;
+        width: 16px;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .up-text{
+        font-size: 1.1rem;
+        color: #000;
+        transition: 0.3s ease-in-out;
+        padding: 0 0 0 20px;
+    }
+    
+    .top-btn:hover{
+        background-color: #111;
+    }
+    
+    .top-btn:hover .up-text{
+        color: #eee;
+    }
+    
+    .top-btn:hover .up-img{
+        filter: invert(100%);
+    }
 }
 
-.up-text{
-    font-size: 1.2rem;
-    color: #000;
-    transition: 0.3s ease-in-out;
-    padding: 0 0 0 20px;
-}
-
-.top-btn:hover{
-    background-color: #111;
-}
-
-.top-btn:hover .up-text{
-    color: #eee;
-}
-
-.top-btn:hover .up-img{
-    filter: invert(100%);
+@media (max-width: 1200px){
+    .top-btn-positioner{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 60px 0 0 0;
+    }
+    
+    .top-btn{
+        width: 200px;
+        height: 50px;
+        border-radius: 12px;
+        border: 2px solid #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .up-img{
+        height: 16px;
+        width: 16px;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .up-text{
+        color: #000;
+        transition: 0.3s ease-in-out;
+        padding: 0 0 0 20px;
+    }
+    
+    .top-btn:hover{
+        background-color: #111;
+    }
+    
+    .top-btn:hover .up-text{
+        color: #eee;
+    }
+    
+    .top-btn:hover .up-img{
+        filter: invert(100%);
+    }
 }

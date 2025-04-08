@@ -1,0 +1,47 @@
+.nav-small{
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-small.scrolled{
+    height: 80px;
+    background-color: #000;
+}
+
+.ns-logo{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ns-logo-dl{
+    color: #eee;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.ns-logo-dl.scrolled{
+    font-size: 1.2rem;
+}
+
+.ns-logo-sd{
+    color: #999;
+    font-size: 1.2rem;
+    transition: 0.3s ease-in-out;
+    font-weight: 400;
+}
+
+.ns-logo-sd.scrolled{
+    font-size: 1rem;
+}

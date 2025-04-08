@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="600" height="600">
+	<title>New Project</title>
+	<defs>
+		<image  width="500" height="500" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0AQMAAADxGE3JAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAHhJREFUeJztyzENAAAMA6DVv+mJ6NfAT64T3/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/dn/gPUpgH1slVP1AAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 300px;fill: #ffffff;font-weight: 700;font-family: "Montserrat-Bold", "Montserrat" } 
+	</style>
+	<use id="Layer 1" href="#img1" x="0" y="0"/>
+	<text id="DL" style="transform: matrix(1,0,0,1,24,132)" >
+		<tspan x="0" y="222.6" class="t0">D</tspan><tspan  y="222.6" class="t0">L</tspan><tspan  y="222.6" class="t0">
+</tspan>
+	</text>
+</svg>

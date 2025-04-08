@@ -1,5 +1,8 @@
 import './About.css';
 import { motion } from "framer-motion";
+import click from '../../assets/svgs/click.svg';
+import compass from '../../assets/svgs/compass.svg';
+import code from '../../assets/svgs/code6.svg';
 
 const sectionVariants = {
     hidden: { opacity: 0, y: 200 },
@@ -15,7 +18,7 @@ const About = () => {
         <div className="about" id="about">
             <h2 className="about-h2">About me, and what I do</h2>
             <div className="about-content">
-                {["Software development", "SEO and digital Marketing", "Product Design & Development"].map((title, i) => (
+                {["1. Software development", "2. SEO and digital Marketing", "3. Product Design & Development"].map((title, i) => (
                     <motion.div
                         key={i}
                         className="ac-section"
@@ -25,9 +28,12 @@ const About = () => {
                         variants={sectionVariants}
                         custom={i} // Pass index for delay calculation
                     >
-                        <h3 className={`ah3-${i === 0 ? 'left' : i === 1 ? 'mid' : 'right'}`}>
-                            {title}
-                        </h3>
+                        <div className="ah3-cont">
+                            <h3>{title}</h3>
+                            <div className="a-svg-cont">
+                                <img src={i === 0 ? code : i === 1 ? click : compass} alt="about svg" className="a-svg" />
+                            </div>
+                        </div>
                         <h4>
                             {i === 0 && "Have an idea? Let's build it together!"}
                             {i === 1 && "Get noticed, stick it to the competition!"}

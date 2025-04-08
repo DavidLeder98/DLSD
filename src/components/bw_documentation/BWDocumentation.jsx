@@ -1,6 +1,7 @@
 import BWBackend from './BWBackend';
 import BWFrontend from './BWFrontend';
 import BWDeployment from './BWDeployment';
+import BWImages from './BWImages';
 import './BWDocumentation.css';
 
 const BWDocumentation = () => {
@@ -9,6 +10,7 @@ const BWDocumentation = () => {
             <BWBackend />
             <BWFrontend />
             <BWDeployment />
+            <BWImages />
         </div>
     );
 }

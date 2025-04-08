@@ -310,7 +310,6 @@
     .footer-link{
         display: flex;
         width: 100%;
-        justify-content: center;
     }
     
     .footer-a{

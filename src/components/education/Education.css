@@ -127,6 +127,43 @@
 
 @media (max-width: 1200px){
     .education{
-        display: none;
+        width: 100%;
+        padding: 30px 30px 10px 30px;
+    }
+    
+    .edu-h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        margin: 20px 0 20px 0;
+        font-weight: 800;
+    }
+    
+    .edu-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .edu-col{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .edu-h3{
+        font-size: 1.2rem;
+        padding: 10px 0 0 0;
+    }
+    
+    .edu-ul{
+        list-style: disc;
+        padding: 0 0 0 17px;
+    }
+    
+    .edu-p, .edu-li{
+        font-size: 0.9rem;
     }
 }

@@ -10,7 +10,7 @@ const sectionVariants = {
     visible: {
         transition: {
             staggerChildren: 0.2,
-            delayChildren: 0.3
+            delayChildren: 0.1
         }
     }
 };

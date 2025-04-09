@@ -1,5 +1,5 @@
 .proj-mobile{
-    padding: 15px 20px 30px 20px;
+    padding: 15px 30px 30px 30px;
     width: 100%;
 }
 
@@ -29,7 +29,7 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-    padding: 10px 0 20px 0;
+    padding: 10px 0 30px 0;
 }
 
 .pm-img-cont{
@@ -44,20 +44,17 @@
     font-size: 1.2rem;
     font-weight: 800;
     text-transform: uppercase;
-    padding: 0 20px;
 }
 
 .pm-gray{
     font-size: 1rem;
     color: #999;
     font-weight: 800;
-    padding: 0 20px;
 }
 
 .pm-blue{
     font-weight: 600;
     color: #0099ff;
-    padding: 0 20px;
 }
 
 .pm-more-btn{

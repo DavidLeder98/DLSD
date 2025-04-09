@@ -50,7 +50,7 @@ const ProjectsMobile = () => {
                     <div className="pm-preview-text">
                         <h3 className="pm-h3">Jastreb</h3>
                         <p className="pm-gray">website & mailing system</p>
-                        <p><a href="https://www.jastreb.rs/" className="pm-a" target="_blank">https://www.jastreb.rs/</a></p>
+                        <p className="pm-blue"><a href="https://www.jastreb.rs/" className="pm-a" target="_blank">https://www.jastreb.rs/</a></p>
                         <div className={`pm-description ${isPdaOpen ? 'show' : ''}`}>
                             <p className="pm-p">Jastreb d.o.o. is medium sized welding and metalurgy materials supply company. They requested me to make a new website for them while keeping their old domain, which was registered all the way back in 2008. They also wished to integrate an old emailing system with this website and domain.</p>
                             <p className="pm-p">The website is built in React JS, featuring a couple of must-have libraries such as react-router-dom and framer-motion. The styling is sleek and modern, and the color scheme was chosen to reflect the feeling of welding and metalwork. All CSS was written by hand, since I didn't want TailWind or BootStrap to limit the style of the project. The website also features some modern UI elements such as an interactive google maps iframe and a digital product catalog.</p>
@@ -73,7 +73,7 @@ const ProjectsMobile = () => {
                     <div className="pm-preview-text">
                         <h3 className="pm-h3">Jastreb</h3>
                         <p className="pm-gray">website & mailing system</p>
-                        <p><a href="https://www.jastreb.rs/" className="pm-a" target="_blank">https://www.jastreb.rs/</a></p>
+                        <p className="pm-blue"><a href="https://www.jastreb.rs/" className="pm-a" target="_blank">https://www.jastreb.rs/</a></p>
                         <div className={`pm-description ${isBookwyrmOpen ? 'show' : ''}`}>
                             <p className="pm-p">Jastreb d.o.o. is medium sized welding and metalurgy materials supply company. They requested me to make a new website for them while keeping their old domain, which was registered all the way back in 2008. They also wished to integrate an old emailing system with this website and domain.</p>
                             <p className="pm-p">The website is built in React JS, featuring a couple of must-have libraries such as react-router-dom and framer-motion. The styling is sleek and modern, and the color scheme was chosen to reflect the feeling of welding and metalwork. All CSS was written by hand, since I didn't want TailWind or BootStrap to limit the style of the project. The website also features some modern UI elements such as an interactive google maps iframe and a digital product catalog.</p>
@@ -96,7 +96,7 @@ const ProjectsMobile = () => {
                     <div className="pm-preview-text">
                         <h3 className="pm-h3">Jastreb</h3>
                         <p className="pm-gray">website & mailing system</p>
-                        <p><a href="https://www.jastreb.rs/" className="pm-a" target="_blank">https://www.jastreb.rs/</a></p>
+                        <p className="pm-blue"><a href="https://www.jastreb.rs/" className="pm-a" target="_blank">https://www.jastreb.rs/</a></p>
                         <div className={`pm-description ${isDlsdOpen ? 'show' : ''}`}>
                             <p className="pm-p">Jastreb d.o.o. is medium sized welding and metalurgy materials supply company. They requested me to make a new website for them while keeping their old domain, which was registered all the way back in 2008. They also wished to integrate an old emailing system with this website and domain.</p>
                             <p className="pm-p">The website is built in React JS, featuring a couple of must-have libraries such as react-router-dom and framer-motion. The styling is sleek and modern, and the color scheme was chosen to reflect the feeling of welding and metalwork. All CSS was written by hand, since I didn't want TailWind or BootStrap to limit the style of the project. The website also features some modern UI elements such as an interactive google maps iframe and a digital product catalog.</p>

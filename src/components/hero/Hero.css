@@ -476,7 +476,7 @@
     .hero-motto{
         position: absolute;
         z-index: 3;
-        top: 250px;
+        top: 190px;
         right: 0;
         width: 100%;
         padding: 20px;
@@ -541,15 +541,16 @@
     
     .pfp-outer{
         position: absolute;
-        top: 100vh;
-        left: 0;
+        bottom: -150px;
+        left: 20px;
         z-index: 102;
         padding: 15px;
-        background-color: #eee;
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         opacity: 0; /* Initially hidden */
         animation: slideInFromTop 0.8s ease-out 0.3s forwards;
         width: 260px;
-        height: 368px;
+        height: 340px;
         cursor: pointer;
     }
     
@@ -573,16 +574,15 @@
         padding: 15px;
         background-color: #eee;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        width: 300px;
-        height: 338px;
+        width: 270px;
+        height: 305px;
         overflow: hidden;
         transition: 0.5s;
-        z-index: 101;
         display: inline-block;
     }
-    
-    .pfp-outer:hover .pfp-inner{
-        transform: translateX(185px);
+
+    .pfp-inner.open{
+        transform: translateX(200px);
     }
     
     .hero-pfp{

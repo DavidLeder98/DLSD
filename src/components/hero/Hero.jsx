@@ -3,6 +3,7 @@ import hero from '../../assets/sky_hd.avif';
 import pfp from '../../assets/pfp.avif';
 import { motion } from "framer-motion";
 import { useNavigation } from '../../services/NavigationContext';
+import { useState } from 'react';
 
 const Hero = () => {
     const currentAge = new Date().getFullYear()-1998;
@@ -22,11 +23,17 @@ const Hero = () => {
 
     const { scrollToElement } = useNavigation();
 
+    const [isOpen, setIsOpen] = useState(false);
+
+    const togglePanel = () => {
+        setIsOpen(prev => !prev);
+    };
+
     return(
         <div className="hero">
             <img src={hero} alt="david leder background" className="hero-img" />
             <div className="hero-content">
-                <div className="pfp-outer">
+                <div className="pfp-outer" onClick={togglePanel}>
                     <div className="outer-text-cont">
                         <div className="outer-text">
                             <p>
@@ -56,7 +63,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="pfp-inner-cont">
-                        <div className="pfp-inner">
+                        <div className={`pfp-inner ${isOpen ? 'open' : ''}`}>
                             <img src={pfp} alt="david leder" className="hero-pfp" />
                         </div>
                     </div>

@@ -151,6 +151,43 @@
 
 @media (max-width: 1200px){
     .stack{
-        display: none;
+        width: 100%;
+        padding: 20px;
     }
+    
+    .stack h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        margin: 40px 0;
+        font-weight: 800;
+    }
+    
+    .stack-cont{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    
+    .stack-item{
+        width: 100px;
+        height: 100px;
+        position: relative;
+    }
+    
+    .stack-img-cont{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .stack-img{
+        width: 100%;
+    }
+    
+    .stack-h3{
+        display: none;
+    }  
 }

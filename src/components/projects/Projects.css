@@ -4,6 +4,7 @@
         width: 100%;
         padding: 0 0 70px 0;
         margin: 100px 0 0 0;
+        background-color: #eeeeee;
     }
     
     .projects{
@@ -15,7 +16,7 @@
     .proj-h2{
         text-align: center;
         text-transform: uppercase;
-        font-size: 4rem;
+        font-size: 3rem;
         padding: 50px 0;
         font-weight: 800;
         width: 100%;

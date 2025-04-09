@@ -1,6 +1,7 @@
 .hero-mobile{
     width: 100%;
     position: relative;
+    margin: 0 0 130px 0;
 }
 
 .hm-img-positioner{
@@ -115,14 +116,19 @@
     }
 }
 
+.hm-pfp-positioner{
+    width: 100%;
+    position: absolute;
+    bottom: -130px;
+    left: 0;
+}
+
 .hm-pfp-cont{
     width: 260px;
     height: 260px;
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto;
-    position: relative;
-    top: -130px;
     border: 5px solid #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     opacity: 0; /* Initially hidden */

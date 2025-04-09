@@ -78,7 +78,7 @@
         display: inline-block;
     }
     
-    .pfp-outer:hover .pfp-inner{
+    .pfp-inner.open{
         transform: translateX(250px);
     }
     
@@ -228,7 +228,7 @@
         display: inline-block;
     }
     
-    .pfp-outer:hover .pfp-inner{
+    .pfp-inner.open{
         transform: translateX(220px);
     }
     
@@ -378,7 +378,7 @@
         display: inline-block;
     }
     
-    .pfp-outer:hover .pfp-inner{
+    .pfp-inner.open{
         transform: translateX(185px);
     }
     

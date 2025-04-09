@@ -27,8 +27,10 @@ const HeroMobile = () => {
                     </div>
                 </div>
             </div>
-            <div className="hm-pfp-cont">
-                <img src={pfp} alt="David Leder" className="hm-pfp" />
+            <div className="hm-pfp-positioner">
+                <div className="hm-pfp-cont">
+                    <img src={pfp} alt="David Leder" className="hm-pfp" />
+                </div>
             </div>
         </div>
     );

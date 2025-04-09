@@ -168,16 +168,4 @@
         transition: 0.3s ease-in-out;
         padding: 0 0 0 20px;
     }
-    
-    .top-btn:hover{
-        background-color: #111;
-    }
-    
-    .top-btn:hover .up-text{
-        color: #eee;
-    }
-    
-    .top-btn:hover .up-img{
-        filter: invert(100%);
-    }
 }

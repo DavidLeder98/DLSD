@@ -46,7 +46,7 @@
 .hm-motto{
     position: absolute;
     width: 100%;
-    top: 190px;
+    bottom: 70px;
     left: 0;
     padding: 30px;
 }
@@ -119,13 +119,13 @@
 .hm-pfp-positioner{
     width: 100%;
     position: absolute;
-    bottom: -130px;
+    top: 130px;
     left: 0;
 }
 
 .hm-pfp-cont{
-    width: 260px;
-    height: 260px;
+    width: 220px;
+    height: 220px;
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto;

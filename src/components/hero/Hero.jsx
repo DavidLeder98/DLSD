@@ -23,17 +23,11 @@ const Hero = () => {
 
     const { scrollToElement } = useNavigation();
 
-    const [isOpen, setIsOpen] = useState(false);
-
-    const togglePanel = () => {
-        setIsOpen(prev => !prev);
-    };
-
     return(
         <div className="hero">
             <img src={hero} alt="david leder background" className="hero-img" />
             <div className="hero-content">
-                <div className="pfp-outer" onClick={togglePanel}>
+                <div className="pfp-outer">
                     <div className="outer-text-cont">
                         <div className="outer-text">
                             <p>
@@ -63,7 +57,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="pfp-inner-cont">
-                        <div className={`pfp-inner ${isOpen ? 'open' : ''}`}>
+                        <div className="pfp-inner">
                             <img src={pfp} alt="david leder" className="hero-pfp" />
                         </div>
                     </div>

@@ -57,7 +57,7 @@
     justify-content: center;
     gap: 10px;
     align-items: center;
-    height: 40px;
+    height: 50px;
     width: 100%;
     background-color: #000;
     margin: 0 auto;
@@ -66,6 +66,9 @@
 
 .pmb-text{
     color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
 }
 
 .pmb-arrow{

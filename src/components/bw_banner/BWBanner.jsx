@@ -10,9 +10,11 @@ const BWBanner = () => {
 
     return(
         <div className="bw-banner">
-            <img src={sky} alt="BookWyrm background" className="bwb-img" />
+            <div className="bwb-img-cont">
+                <img src={sky} alt="BookWyrm background" className="bwb-img" />
+            </div>
             <div className="bwb-content">
-                <h2 className="bwb-h2"><span className="bwb-name">BookWyrm</span> | Project Breakdown</h2>
+                <h2 className="bwb-h2"><span className="bwb-name">BookWyrm</span><span className="bwb-mobile-remove"> | </span>Project Breakdown</h2>
                 <div className="bwb-sections">
                     <div className="bwb-right">
                         <img src={bookwyrm} alt="BookWyrm background" className="bwbr-img" />

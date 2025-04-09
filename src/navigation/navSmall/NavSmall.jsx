@@ -49,11 +49,11 @@ const NavSmall = () => {
                     <a href="https://www.lederdavid.com/">
                         <h2 className="menu-link">Home<div className="menu-line"></div></h2>
                     </a>
-                    <h2 className="menu-link" onClick={() => scrollToElement("about")}>About</h2>
-                    <h2 className="menu-link" onClick={() => scrollToElement("stack")}>Tech Stack</h2>
-                    <h2 className="menu-link" onClick={() => scrollToElement("projects")}>Projects</h2>
-                    <h2 className="menu-link" onClick={() => scrollToElement("education")}>Education & Background</h2>
-                    <h2 className="menu-link" onClick={() => scrollToElement("contact")}>Contact</h2>
+                    <h2 className="menu-link" onClick={() => { scrollToElement("about"); setIsOpen(false);}} >About</h2>
+                    <h2 className="menu-link" onClick={() => {scrollToElement("stack"); setIsOpen(false);}}>Tech Stack</h2>
+                    <h2 className="menu-link" onClick={() => {scrollToElement("projects"); setIsOpen(false);}}>Projects</h2>
+                    <h2 className="menu-link" onClick={() => {scrollToElement("education"); setIsOpen(false);}}>Education & Background</h2>
+                    <h2 className="menu-link" onClick={() => {scrollToElement("contact"); setIsOpen(false);}}>Contact</h2>
                 </div>
             </div>
         </div>

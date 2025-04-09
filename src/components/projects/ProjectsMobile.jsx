@@ -14,7 +14,7 @@ const ProjectsMobile = () => {
     const [isDlsdOpen, setIsDlsdOpen] = useState(false);
 
     return(
-        <div className="proj-mobile">
+        <div className="proj-mobile" id="projects">
             <div className="pm-h2">My Projects</div>
             <div className="pm-list">
 
@@ -72,7 +72,7 @@ const ProjectsMobile = () => {
                         <p className="pm-blue"><a href="https://www.bookwyrm.store/" className="pm-a" target="_blank">https://www.bookwyrm.store/</a></p>
                         <p className="pm-p">This website was a demo e-commerce platform I created to showcase my skills and abilities as a full-stack web developer. While the site was fully functional, it was not a real online store and did not support online payments. Eventually I needed to shut it down, because maintaining a database and a server for a demo project was too expensive.</p>
                         <p className="pm-p">The project was deployed via Azure, it had a .NET back end and a React TS front end. The websites data, such as products, categories and usesrs were stored in a Microsoft SQL database. The site had user authentication and tracking via cookies, a cart feature for both registered and guest users and an admin pannel for managing products.</p>
-                        <p className="pm-p">A full breakdown of the project, and the tools I used to build it can be found <Link className="pm-blue" to="/bookwyrm">🡪here.</Link></p>
+                        <p className="pm-p">A full breakdown of the project, and the tools I used to build it can be found <Link className="pm-blue" to="/bookwyrm">here.</Link></p>
                     </div>
                     <div className="pm-more-btn" onClick={() => setIsBookwyrmOpen(prev => !prev)}>
                         <span className="pmb-text">Show {isBookwyrmOpen ? 'less' : 'more'}</span>

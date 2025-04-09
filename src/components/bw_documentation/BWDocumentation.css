@@ -236,6 +236,84 @@
 
 @media (max-width: 1200px){
     .bw-doc{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bw-part{
+        width: 100%;
+        padding: 30px;
+    }
+    
+    .bw-h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        margin: 0 0 20px 0;
+        font-weight: 400;
+    }
+    
+    .bw-h2-lower{
+        text-align: center;
+        font-size: 1.6rem;
+        margin: 0 0 40px 0;
+        font-weight: 400;
+    }
+    
+    .bw-content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .bw-h3{
+        font-size: 1.3rem;
+        text-align: center;
+        font-weight: 400;
+        color: #000;
+        padding: 10px 0 20px 0;
+    }
+    
+    .bw-p{
+        font-size: 0.9rem;
+    }
+    
+    .bw-images{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .bw-imgs-item{
+        width: 100%;
+        box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 3px rgba(0, 0, 0, 0.19);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    
+    .bw-img-cont{
+        width: 100%;
+    }
+    
+    .bw-img{
+        width: 100%;
+    }
+    
+    .bw-img-open-link{
         display: none;
+    }
+    
+    .bw-img-name{
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 400;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

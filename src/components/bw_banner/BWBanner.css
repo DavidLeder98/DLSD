@@ -358,6 +358,113 @@
 
 @media (max-width: 1200px){
     .bw-banner{
+        width: 100%;
+        position: relative;
+        height: 1090px;
+    }
+
+    .bwb-img-cont{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background-color: #222;
+        position: relative;
+    }
+    
+    .bwb-img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        object-fit: cover;
+        object-position: bottom;
+    }
+    
+    .bwb-content{
+        width: 100%;
+        padding: 0 30px;
+        z-index: 100;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .bwb-h2{
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 400;
+        background-color: #000;
+        border: 10px solid #fff;
+        color: #999;
+        width: 100%;
+        letter-spacing: 0.2rem;
+        padding: 30px;
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bwb-mobile-remove{
         display: none;
+    }
+    
+    .bwb-name{
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 800;
+    }
+    
+    .bwb-sections{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #fff;
+        padding: 20px;
+    }
+    
+    .bwb-left{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 1rem;
+    }
+    
+    .bwb-p{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bwb-a{
+        cursor: pointer;
+        font-style: italic;
+        position: relative;
+    }
+    
+    .bwb-a-text{
+        color: #0099ff;
+        font-weight: 600;
+    }
+    
+    .bwb-a-arrow{
+        display: none;
+    }
+    
+    .bwb-right{
+        width: 100%;
+    }
+    
+    .bwbr-img{
+        width: 100%;
+    }
+    
+    .bwb-white-cont{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
     }
 }

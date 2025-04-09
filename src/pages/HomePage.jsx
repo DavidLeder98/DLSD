@@ -1,4 +1,4 @@
-import Hero from "../components/hero/Hero";
+import HeroSelector from "../components/hero/HeroSelector";
 import About from "../components/about/About";
 import Stack from "../components/stack/Stack";
 import Projects from "../components/projects/Projects";
@@ -11,7 +11,7 @@ const HomePage = () => {
     
     return(
         <div>
-            <Hero />
+            <HeroSelector />
             <About />
             <Stack />
             <Projects />

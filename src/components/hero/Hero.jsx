@@ -3,7 +3,6 @@ import hero from '../../assets/sky_hd.avif';
 import pfp from '../../assets/pfp.avif';
 import { motion } from "framer-motion";
 import { useNavigation } from '../../services/NavigationContext';
-import { useState } from 'react';
 
 const Hero = () => {
     const currentAge = new Date().getFullYear()-1998;

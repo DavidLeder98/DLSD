@@ -1,0 +1,92 @@
+.hero-mobile{
+    width: 100%;
+    position: relative;
+}
+
+.hm-img-positioner{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #222;
+    position: relative;
+}
+
+.hm-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.hm-motto{
+    position: absolute;
+    width: 100%;
+    top: 250px;
+    left: 0;
+    padding: 20px;
+}
+
+.hmm-color{
+    color: #000;
+    background-color: #ffee00;
+    padding: 0 5px;
+}
+
+.hmm-top{
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #eee;
+    text-transform: uppercase;
+}
+
+.hmm-mid{
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #eee;
+    margin: 10px 0;
+}
+
+.hmm-bot{
+    font-size: 1rem;
+    color: #eee;
+    margin: 10px 0;
+}
+
+.hmm-button{
+    margin: 30px auto 0 auto;
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.hmmb-p{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #eee;
+    transition: color 0.3s ease-in-out;
+}
+
+.hm-pfp-cont{
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: -130px;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hm-pfp{
+    width: 100%;
+    height: auto;
+}

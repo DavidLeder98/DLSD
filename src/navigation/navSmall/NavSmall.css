@@ -20,6 +20,7 @@
     align-items: center;
     transition: 0.3s ease-in-out;
     z-index: 101;
+    position: relative;
 }
 
 .nav-small-content.scrolled{

@@ -32,7 +32,7 @@ const AboutMobile = () => {
                         className="ac-section"
                         initial="hidden"
                         whileInView="visible"
-                        viewport={{ once: true, amount: 0.1 }}
+                        viewport={{ once: true, amount: 0.2 }}
                         variants={sectionVariants}
                     >
                         <motion.div className="ah3-cont" variants={itemVariants}>

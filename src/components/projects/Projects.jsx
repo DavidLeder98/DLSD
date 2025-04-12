@@ -40,8 +40,8 @@ const Projects = () => {
 
                     {/*PDA website*/}
                     <div className="proj">
-                        <div className="proj-img-cont">
-                            <img src={pda} alt="Pro Dental Aesthetic logo" className="proj-img" onClick={() => openLink("https://www.prodentalaesthetic.com/")} />
+                        <div className="proj-img-cont" onClick={() => openLink("https://www.prodentalaesthetic.com/")}>
+                            <img src={pda} alt="Pro Dental Aesthetic logo" className="proj-img" />
                             <div className="tab">GO TO PAGE  <img src={newtab} alt="open new tab" className="newtab" /></div>
                         </div>
                         <div className="proj-sep"></div>
@@ -60,8 +60,8 @@ const Projects = () => {
 
                     {/*BookWyrm website*/}
                     <div className="proj">
-                        <div className="proj-img-cont">
-                            <img src={bookwyrm} alt="BookWyrm logo" className="proj-img" onClick={() => openLink("https://www.bookwyrm.store/")} />
+                        <div className="proj-img-cont" onClick={() => openLink("https://www.bookwyrm.store/")}>
+                            <img src={bookwyrm} alt="BookWyrm logo" className="proj-img" />
                             <div className="tab">GO TO PAGE  <img src={newtab} alt="open new tab" className="newtab" /></div>
                         </div>
                         <div className="proj-sep"></div>
@@ -81,8 +81,8 @@ const Projects = () => {
 
                     {/*DLSD website*/}
                     <div className="proj">
-                        <div className="proj-img-cont">
-                            <img src={dlsd} alt="David Leder logo" className="proj-img" onClick={() => openLink("https://www.lederdavid.com/")} />
+                        <div className="proj-img-cont" onClick={() => openLink("https://www.lederdavid.com/")}>
+                            <img src={dlsd} alt="David Leder logo" className="proj-img" />
                             <div className="tab">GO TO PAGE  <img src={newtab} alt="open new tab" className="newtab" /></div>
                         </div>
                         <div className="proj-sep"></div>

@@ -3,6 +3,7 @@ import jastreb from '../../assets/projects/jastreb.png';
 import pda from '../../assets/projects/pda.png';
 import bookwyrm from '../../assets/projects/bookwyrm.png';
 import dlsd from '../../assets/projects/dlsd.png';
+import soiov from '../../assets/projects/soiov.webp';
 import newtab from '../../assets/svgs/newtab2.svg';
 import { Link } from 'react-router-dom';
 import { div } from 'framer-motion/client';
@@ -17,6 +18,29 @@ const Projects = () => {
             <div className="projects" id="projects">
                 <h2 className="proj-h2">My Projects</h2>
                 <div className="projects-list">
+
+                    {/*SOIOV website*/}
+                    <div className="proj">
+                        <div className="proj-img-cont" onClick={() => openLink("https://www.soiov.org.rs/")}>
+                            <img src={soiov} alt="Jastreb logo" className="proj-img" />
+                            <div className="tab">GO TO PAGE <img src={newtab} alt="open new tab" className="newtab" /></div>
+                        </div>
+                        <div className="proj-details">
+                            <h3 className="proj-h3">Sindikalna Organizacija IOV | <span className="ph3-gray">Full stack website</span></h3>
+                            <p>
+                                <a href="https://www.soiov.org.rs/" className="proj-a" target="_blank">
+                                    <span className="proj-a-arrow">🡪 </span>
+                                    <span className="proj-a-text">https://www.soiov.org.rs/</span>
+                                </a>
+                            </p>
+                            <p className="proj-p">
+                                This project was developed for the Institute of Oncology of Vojvodina. The website serves as a community announcement board, providing employees who join the syndicate with access to numerous benefits.
+                            </p>
+                            <p className="proj-p">
+                                Administrators can easily manage all relevant content on the platform, including documents, member lists, and partner deals. They can also publish announcements using a custom-built text editor and compiler, which supports rich text formatting (bold text, hyperlinks, etc.), as well as tables and images.
+                            </p>
+                        </div>
+                    </div>
 
                     {/*Jastreb website*/}
                     <div className="proj">

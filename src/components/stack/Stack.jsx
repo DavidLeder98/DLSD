@@ -10,6 +10,10 @@ import net from '../../assets/stack/net.png';
 import react from '../../assets/stack/react.png';
 import sql from '../../assets/stack/sql.png';
 import ts from '../../assets/stack/ts.png';
+import mongo from '../../assets/stack/mongo.png';
+import node from '../../assets/stack/node.png';
+import express from '../../assets/stack/express.png';
+import docker from '../../assets/stack/docker.png';
 
 const stackItems = [
     { name: "C#", img: csharp },
@@ -22,6 +26,10 @@ const stackItems = [
     { name: "JavaScript", img: js },
     { name: "TypeScript", img: ts },
     { name: "React", img: react },
+    { name: "MongoDB", img: mongo },
+    { name: "Node JS", img: node },
+    { name: "Express JS", img: express },
+    { name: "Docker", img: docker },
 ];
 
 // Define animation variants

@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 import { useState} from "react";
 
 const ProjectsMobile = () => {
+    const [isSoiovOpen, setIsisSoiovOpen] = useState(false);
     const [isJastrebOpen, setIsJastrebOpen] = useState(false);
     const [isPdaOpen, setIsPdaOpen] = useState(false);
     const [isBookwyrmOpen, setIsBookwyrmOpen] = useState(false);
@@ -26,7 +27,7 @@ const ProjectsMobile = () => {
                             <img src={soiov} alt="" className="pm-img" />
                         </a>
                     </div>
-                    <div className={`pm-description ${isJastrebOpen ? 'show' : ''}`}>
+                    <div className={`pm-description ${isSoiovOpen ? 'show' : ''}`}>
                         <h3 className="pm-h3">Sindikalna Organizacija IOV</h3>
                         <p className="pm-gray">Full stack website</p>
                         <p className="pm-blue"><a href="https://www.soiov.org.rs/" className="pm-a" target="_blank">https://www.soiov.org.rs/</a></p>
@@ -37,7 +38,7 @@ const ProjectsMobile = () => {
                                 Administrators can easily manage all relevant content on the platform, including documents, member lists, and partner deals. They can also publish announcements using a custom-built text editor and compiler, which supports rich text formatting (bold text, hyperlinks, etc.), as well as tables and images.
                             </p>
                     </div>
-                    <div className="pm-more-btn" onClick={() => setIsJastrebOpen(prev => !prev)}>
+                    <div className="pm-more-btn" onClick={() => setIsisSoiovOpen(prev => !prev)}>
                         <span className="pmb-text">Show {isJastrebOpen ? 'less' : 'more'}</span>
                         <img src={uparrow} alt="more arrow" className={`pmb-arrow ${isJastrebOpen ? 'show' : ''}`} />
                     </div>

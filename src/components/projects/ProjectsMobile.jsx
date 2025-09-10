@@ -4,6 +4,7 @@ import pda from '../../assets/projects/pda.png';
 import bookwyrm from '../../assets/projects/bookwyrm.png';
 import dlsd from '../../assets/projects/dlsd.png';
 import uparrow from '../../assets/svgs/up2.svg';
+import soiov from '../../assets/projects/soiov.webp';
 import { Link } from 'react-router-dom';
 import { useState} from "react";
 
@@ -17,6 +18,30 @@ const ProjectsMobile = () => {
         <div className="proj-mobile" id="projects">
             <div className="pm-h2">My Projects</div>
             <div className="pm-list">
+
+                { /* SOIOV */}
+                <div className="pm-item">
+                    <div className="pm-img-cont">
+                        <a href="https://www.soiov.org.rs/" className="pm-a" target="_blank">
+                            <img src={soiov} alt="" className="pm-img" />
+                        </a>
+                    </div>
+                    <div className={`pm-description ${isJastrebOpen ? 'show' : ''}`}>
+                        <h3 className="pm-h3">Sindikalna Organizacija IOV</h3>
+                        <p className="pm-gray">Full stack website</p>
+                        <p className="pm-blue"><a href="https://www.soiov.org.rs/" className="pm-a" target="_blank">https://www.soiov.org.rs/</a></p>
+                        <p className="pm-p">
+                                This project was developed for the Institute of Oncology of Vojvodina. The website serves as a community announcement board, providing employees who join the syndicate with access to numerous benefits.
+                            </p>
+                            <p className="pm-p">
+                                Administrators can easily manage all relevant content on the platform, including documents, member lists, and partner deals. They can also publish announcements using a custom-built text editor and compiler, which supports rich text formatting (bold text, hyperlinks, etc.), as well as tables and images.
+                            </p>
+                    </div>
+                    <div className="pm-more-btn" onClick={() => setIsJastrebOpen(prev => !prev)}>
+                        <span className="pmb-text">Show {isJastrebOpen ? 'less' : 'more'}</span>
+                        <img src={uparrow} alt="more arrow" className={`pmb-arrow ${isJastrebOpen ? 'show' : ''}`} />
+                    </div>
+                </div>
 
                 { /* Jastreb */}
                 <div className="pm-item">
